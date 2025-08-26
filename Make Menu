@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Vistara cafe</h1>
+    <ol>
+        <li><a href="https://www.google.com/imgres?q=paneer%20butter%20masala%20images&imgurl=https%3A%2F%2Fwww.aline-made.com%2Fwp-content%2Fuploads%2F2024%2F12%2FPaneer-Butter-Masala-2-scaled.jpg&imgrefurl=https%3A%2F%2Fwww.aline-made.com%2Fpaneer-butter-masala%2F&docid=ZHqbql8a3sd_DM&tbnid=vAi9wJC4tqYm1M&vet=12ahUKEwjjqprtrIWPAxXTRmwGHdjaHEcQM3oECBsQAA..i&w=1707&h=2560&hcb=2&ved=2ahUKEwjjqprtrIWPAxXTRmwGHdjaHEcQM3oECBsQAA">Panner Butter Masala</a></li>
+        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffood.ndtv.com%2Frecipe-instant-masala-paneer-roll-958181&psig=AOvVaw1MiiYico41BlrPIDS_bLjh&ust=1755090858715000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKi_m4uthY8DFQAAAAAdAAAAABAE">Panner Rolls</a></li>
+        <li><a href="https://www.google.com/imgres?q=Panner%20Khardhi%20images&imgurl=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fwp-content%2Fuploads%2F2022%2F04%2Fkadai-paneer-recipe.jpg&imgrefurl=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fkadai-paneer-gravy-recipe%2F&docid=0dxn_CC-DJWbCM&tbnid=5fQj2iS9P4vcGM&vet=12ahUKEwjmk-uYrYWPAxUgbGwGHZ4iNdgQM3oECCQQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwjmk-uYrYWPAxUgbGwGHZ4iNdgQM3oECCQQAA">Panner Khardhi</a></li>
+        <li><a href="https://www.google.com/imgres?q=Panner%20Fried%20Rice%20images&imgurl=https%3A%2F%2Fwww.indianveggiedelight.com%2Fwp-content%2Fuploads%2F2023%2F09%2Fpaneer-fried-rice-featured.jpg&imgrefurl=https%3A%2F%2Fwww.indianveggiedelight.com%2Fpaneer-fried-rice%2F&docid=WaSTIByVMdTmxM&tbnid=NmQlDgx021nFRM&vet=12ahUKEwij36GwrYWPAxWaUGwGHQReNOkQM3oECBUQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwij36GwrYWPAxWaUGwGHQReNOkQM3oECBUQAA">Panner Fried Rice</a></li>
+    </ol>
+
+</body>
+
+</html>
