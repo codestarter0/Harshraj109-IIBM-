@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyStore — Simple Amazon-like Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="logo">My<span>Store</span></div>
+
+    <div class="searchbar">
+      <input id="searchInput" class="search-input" type="text" placeholder="Search for products, e.g. headphones, books..." />
+      <button id="searchBtn" class="search-btn">Search</button>
+    </div>
+
+    <div class="header-right">
+      <div class="small">Hello, Sign in</div>
+      <div class="small">Orders</div>
+      <div class="small">Cart (0)</div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <a href="#">All</a>
+    <a href="#">Today's Deals</a>
+    <a href="#">Electronics</a>
+    <a href="#">Books</a>
+    <a href="#">Clothing</a>
+    <a href="#">Customer Service</a>
+  </div>
+
+  <div class="hero">
+    <div class="text">
+      <h1>Welcome to MyStore — simple shopping layout for learning</h1>
+      <p>This page shows a basic product listing similar to a real e-commerce site. Try the search box above to filter product cards by name.</p>
+    </div>
+    <img src="https://images.cnbctv18.com/wp-content/uploads/2022/10/amazon.jpg?impolicy=website&width=400&height=225" alt="deals" style="border-radius:8px;"/>
+  </div>
+
+  <main class="container">
+    <div id="productGrid" class="grid">
+      <div class="card" data-title="Wireless Headphones">
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rockerz_650_pp_renders_main_banner.124.png?v=1740735495" alt="headphones">
+        <div class="title">Wireless Headphones</div>
+        <div class="rating">★★★★☆ (120)</div>
+        <div class="price">₹1,299</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+
+      <div class="card" data-title="Classic Novel - Paperback">
+        <img src="https://via.placeholder.com/300x150?text=Book" alt="book">
+        <div class="title">Classic Novel - Paperback</div>
+        <div class="rating">★★★☆☆ (78)</div>
+        <div class="price">₹249</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+
+      <div class="card" data-title="Smart Watch">
+        <img src="https://via.placeholder.com/300x150?text=Watch" alt="watch">
+        <div class="title">Smart Watch</div>
+        <div class="rating">★★★★☆ (300)</div>
+        <div class="price">₹3,499</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+
+      <div class="card" data-title="USB-C Charger">
+        <img src="https://via.placeholder.com/300x150?text=Charger" alt="charger">
+        <div class="title">USB-C Fast Charger</div>
+        <div class="rating">★★★★☆ (215)</div>
+        <div class="price">₹599</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+
+      <div class="card" data-title="Backpack">
+        <img src="https://via.placeholder.com/300x150?text=Backpack" alt="backpack">
+        <div class="title">College Backpack</div>
+        <div class="rating">★★★★☆ (150)</div>
+        <div class="price">₹899</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+
+      <div class="card" data-title="Desk Lamp">
+        <img src="https://via.placeholder.com/300x150?text=Lamp" alt="lamp">
+        <div class="title">LED Desk Lamp</div>
+        <div class="rating">★★★☆☆ (49)</div>
+        <div class="price">₹399</div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 MyStore. This is a learning project for students. Layout inspired by common e-commerce sites.
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    const cards = document.querySelectorAll('.card');
+
+    function filterProducts() {
+      const q = searchInput.value.trim().toLowerCase();
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title').toLowerCase();
+        card.style.display = (!q || title.includes(q)) ? 'flex' : 'none';
+      });
+    }
+    searchBtn.addEventListener('click', filterProducts);
+    searchInput.addEventListener('keypress', e => { if(e.key==='Enter') filterProducts();});
+  
+  </script>
+</body>
+</html>
